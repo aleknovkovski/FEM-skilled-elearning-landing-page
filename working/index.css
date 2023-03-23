@@ -4,8 +4,8 @@ body {
 
 .front-page-header {
     background-image: url('./assets/image-hero-desktop.png');
-    background-size: 60%;
-    height: 500px;
+    background-size: auto 450px;
+    height: 350px;
     background-position: right -150px top -100px;
     background-repeat: no-repeat;
 }
