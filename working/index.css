@@ -16,3 +16,11 @@ body {
     color: white;
     padding: 0.75em 1.25em;
 }
+
+.header-top {
+    padding: 0.75em 1.25em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: red;
+}
