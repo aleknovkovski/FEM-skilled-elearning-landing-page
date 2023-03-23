@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
 }
 
 .front-page-header {
@@ -44,10 +48,10 @@ footer {
     align-items: center;
 }
 
+
 .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
     margin-bottom: 1.5em;
 }
 
@@ -55,4 +59,6 @@ footer {
     width: 350px;
     height: 322px;
     box-shadow: 0 25px 50px rgba(6, 22, 141, 0.0442);
+    padding: 2.25em;
+    border-radius: 2em;
 }
