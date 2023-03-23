@@ -6,6 +6,8 @@
 body {
     margin: 0;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 13px;
 }
 
 .front-page-header {
@@ -32,12 +34,14 @@ body {
 }
 
 .container {
-    width: 900px;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
 .inner-container {
-    width: 720px;
+    width: 80%;
+    max-width: 1110px;
     margin: 0 auto;
 }
 
@@ -61,7 +65,15 @@ footer {
     width: 220px;
     height: 210px;
     box-shadow: 0 25px 50px rgba(6, 22, 141, 0.0542);
-    padding: 2.25em;
+    padding: 2em;
     margin-bottom: 2.75em;
     border-radius: 1em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+p {
+    font-size: 1em;
 }
