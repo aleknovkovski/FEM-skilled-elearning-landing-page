@@ -68,10 +68,6 @@ footer {
     padding: 4.25em 1.75em 2.7em;
     margin-bottom: 2.75em;
     border-radius: 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1em;
 }
 
 h3 {
