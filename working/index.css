@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.front-page-header {
+    background-image: url('./assets/image-hero-desktop.png');
+    background-size: 50%;
+    height: 500px;
+    background-position: right -150px top -100px;
+    background-repeat: no-repeat;
+}
