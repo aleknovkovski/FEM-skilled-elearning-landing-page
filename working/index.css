@@ -34,3 +34,12 @@ body {
     width: 600px;
     margin: 0 auto;
 }
+
+footer {
+    padding: 0.75em 1.25em;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
