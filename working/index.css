@@ -7,7 +7,7 @@ body {
     margin: 0;
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
     font-family: 'Plus Jakarta Sans', sans-serif;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .front-page-header {
@@ -63,17 +63,22 @@ footer {
 
 .card {
     width: 220px;
-    height: 260px;
+    height: 220px;
     box-shadow: 0 25px 50px rgba(6, 22, 141, 0.0542);
-    padding: 4.25em 1.75em 2.7em;
+    display: flex;
+    flex-direction: column;
+    padding: 2.75em 1.50em;
     margin-bottom: 2.75em;
     border-radius: 1em;
 }
 
-h3 {
+.card h3 {
     font-size: 1.25em;
+    margin-bottom: 1em;
+    margin-top: 1em;
 }
 
-p {
+.card p {
     font-size: 1em;
+    height: 11em;
 }
