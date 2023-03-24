@@ -256,6 +256,11 @@ button {
         height: 765px;
     }
 
+    .header-top {
+        padding-top: 1.5em;
+
+    }
+
     h1 {
         font-size: 56px;
         line-height: 71px;
