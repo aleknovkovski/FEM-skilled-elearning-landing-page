@@ -13,6 +13,9 @@ body {
 .container {
     width: 1440px;
     margin: 0 auto;
+}
+
+.striped-bg-image {
     background-image: url('./assets/image-hero-desktop.png');
     background-size: auto 950px;
     background-position: right -365px top -180px;
@@ -52,7 +55,7 @@ h1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
-    padding: 0.5em 1em;
+    padding: 1em 2em;
     color: white;
 }
 
@@ -95,6 +98,7 @@ footer {
     padding: 2.75em 1.50em;
     margin-bottom: 2.75em;
     border-radius: 1em;
+    position: relative;
 }
 
 .heading-card {
@@ -108,6 +112,11 @@ footer {
     flex-direction: column;
 }
 
+.card-icon {
+    width: 56px;
+    position: absolute;
+    top: -20px;
+}
 .card h3, .card h2 {
     margin-top: 1em;
 }
