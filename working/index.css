@@ -10,13 +10,25 @@ body {
     font-size: 16px;
 }
 
-.front-page-header {
+.container {
+    width: 1440px;
+    margin: 0 auto;
     background-image: url('./assets/image-hero-desktop.png');
     background-size: auto 750px;
-    height: 600px;
     background-position: right -225px top -150px;
     background-repeat: no-repeat;
 }
+
+.inner-container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.front-page-header {
+    height: 600px;
+}
+
+
 
 .dark-button {
     background: black;
@@ -31,16 +43,6 @@ body {
     justify-content: space-between;
     align-items: center;
     background: red;
-}
-
-.container {
-    width: 1440px;
-    margin: 0 auto;
-}
-
-.inner-container {
-    width: 1110px;
-    margin: 0 auto;
 }
 
 footer {
@@ -100,4 +102,9 @@ footer {
 .card p {
     font-size: 1.125em;
     height: 11em;
+}
+
+header main {
+    display: flex;
+    align-items: center;
 }
