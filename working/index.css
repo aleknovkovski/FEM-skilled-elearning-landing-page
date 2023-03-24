@@ -12,9 +12,9 @@ body {
 
 .front-page-header {
     background-image: url('./assets/image-hero-desktop.png');
-    background-size: auto 450px;
-    height: 350px;
-    background-position: right -150px top -100px;
+    background-size: auto 750px;
+    height: 600px;
+    background-position: right -225px top -150px;
     background-repeat: no-repeat;
 }
 
@@ -34,14 +34,12 @@ body {
 }
 
 .container {
-    width: 100%;
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 
 .inner-container {
-    width: 80%;
-    max-width: 1110px;
+    width: 1110px;
     margin: 0 auto;
 }
 
