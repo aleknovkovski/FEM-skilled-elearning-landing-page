@@ -54,8 +54,8 @@ p {
 
     .striped-bg-image {
         background-image: url('./assets/image-hero-tablet.png');
-        background-size: auto 640px;
-        background-position: right -245px top -80px;
+        background-size: auto 680px;
+        background-position: right -275px top -90px;
     }
 
     .heading-copy {
