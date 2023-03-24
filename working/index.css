@@ -100,7 +100,19 @@ p {
     margin-bottom: 1em;
 }
 
+.mobile-header-image {
+    display: none;
+}
+
 @media screen and (max-width: 767px) {
+    .mobile-header-image {
+        display: block;
+    }
+
+    .mobile-header-image img {
+        display: block;
+        width: 100%;
+    }
     .inner-container {
         padding: 1em;
     }
