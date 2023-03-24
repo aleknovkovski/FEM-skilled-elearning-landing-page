@@ -41,6 +41,19 @@ h1 {
     font-size: 56px;
     line-height: 71px;
     color: #13183F;
+    margin-bottom: 0.5em;
+}
+
+.hero-button {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 32px;
+    border-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 0.5em 1em;
+    color: white;
 }
 
 .dark-button {
@@ -112,8 +125,13 @@ footer {
     margin-bottom: 1em;
 }
 
-.card p {
+p {
     font-size: 1.125em;
+    color: #83869A;
+    margin-bottom: 2em;
+}
+
+.card p {
     height: 11em;
 }
 
