@@ -155,6 +155,15 @@ p {
     font-weight: 700;
 }
 
+.footer-button {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    color: white;
+    padding: 0.75em 1.25em;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
 .header-top {
     padding-top: 0.75em;
     display: flex;
@@ -162,10 +171,11 @@ p {
     align-items: center;
 }
 
-
 footer {
-    padding: 0.75em 1.25em;
     background: black;
+}
+footer .inner-container {
+    padding: 1.5em;
     color: white;
     display: flex;
     justify-content: space-between;
