@@ -42,6 +42,32 @@ p {
     position: relative;
 }
 
+.hero-button {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 32px;
+    border-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 1em 2em;
+    color: white;
+}
+
+.dark-button {
+    background: black;
+    border-radius: 1.5em;
+    color: white;
+    padding: 0.6em 1.75em;
+}
+
+.footer-button {
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;
+    color: white;
+    padding: 0.75em 1.25em;
+}
+
 @media screen and (min-width: 768px) {
     .container {
         width: 768px;
@@ -85,6 +111,14 @@ p {
         height: 283px;
     }
 
+    .btn {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .hero-button {
+        padding: 0.875em 2.5em;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -126,42 +160,19 @@ p {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-
     .card {
         width: 350px;
         height: 322px;
     }
-}
 
+    .btn {
+        font-size: 18px;
+        line-height: 28px;
+    }
 
-.hero-button {
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-    border-radius: 32px;
-    border-style: none;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    padding: 1em 2em;
-    color: white;
-}
-
-.dark-button {
-    background: black;
-    border-radius: 1.5em;
-    color: white;
-    padding: 0.75em 1.25em;
-    font-size: 1.25em;
-    font-weight: 700;
-}
-
-.footer-button {
-    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-    border-radius: 28px;
-    color: white;
-    padding: 0.75em 1.25em;
-    font-size: 1.25em;
-    font-weight: 700;
+    .hero-button {
+        padding: 1em 2em;
+    }
 }
 
 .header-top {
@@ -174,6 +185,7 @@ p {
 footer {
     background: black;
 }
+
 footer .inner-container {
     padding: 1.5em;
     color: white;
@@ -181,7 +193,6 @@ footer .inner-container {
     justify-content: space-between;
     align-items: center;
 }
-
 
 .heading-card {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
