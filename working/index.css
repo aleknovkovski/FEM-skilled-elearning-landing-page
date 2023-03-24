@@ -10,42 +10,98 @@ body {
     font-size: 16px;
 }
 
-.container {
-    width: 1440px;
-    margin: 0 auto;
-}
-
 .striped-bg-image {
-    background-image: url('./assets/image-hero-desktop.png');
-    background-size: auto 950px;
-    background-position: right -365px top -180px;
     background-repeat: no-repeat;
 }
 
-.inner-container {
-    width: 1110px;
+.container, .inner-container {
     margin: 0 auto;
 }
 
 .front-page-header main {
-    height: 650px;
     display: flex;
     align-items: center;
-}
-
-.heading-copy {
-    width: 457px;
-    height: 359px;
 }
 
 h1 {
     font-style: normal;
     font-weight: 800;
-    font-size: 56px;
     line-height: 71px;
     color: #13183F;
     margin-bottom: 0.5em;
 }
+
+p {
+    color: #83869A;
+    margin-bottom: 2em;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 768px;
+    }
+
+    .inner-container {
+        width: 689px;
+    }
+
+    .striped-bg-image {
+        background-image: url('./assets/image-hero-tablet.png');
+        background-size: auto 640px;
+        background-position: right -245px top -80px;
+    }
+
+    .heading-copy {
+        width: 398px;
+        height: 284px;
+    }
+
+    .front-page-header main {
+        height: 450px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 1440px;
+    }
+
+    .inner-container {
+        width: 1110px;
+    }
+
+    .striped-bg-image {
+        background-image: url('./assets/image-hero-desktop.png');
+        background-size: auto 990px;
+        background-position: right -385px top -190px;
+    }
+
+    .heading-copy {
+        width: 457px;
+        height: 359px;
+    }
+
+    .front-page-header main {
+        height: 700px;
+    }
+
+    h1 {
+        font-size: 56px;
+    }
+
+    p {
+        font-size: 1.125em;
+    }
+}
+
 
 .hero-button {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -74,6 +130,11 @@ h1 {
     justify-content: space-between;
     align-items: center;
     /*background: red;*/
+}
+
+header main {
+    display: flex;
+    align-items: center;
 }
 
 footer {
@@ -117,6 +178,7 @@ footer {
     position: absolute;
     top: -20px;
 }
+
 .card h3, .card h2 {
     margin-top: 1em;
 }
@@ -136,17 +198,7 @@ footer {
     margin-bottom: 1em;
 }
 
-p {
-    font-size: 1.125em;
-    color: #83869A;
-    margin-bottom: 2em;
-}
-
 .card p {
     height: 11em;
 }
 
-header main {
-    display: flex;
-    align-items: center;
-}
