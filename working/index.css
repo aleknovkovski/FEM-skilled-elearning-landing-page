@@ -48,6 +48,10 @@ p {
     position: relative;
 }
 
+button {
+    border-style: none;
+}
+
 .hero-button {
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 32px;
@@ -58,11 +62,21 @@ p {
     color: white;
 }
 
+.hero-button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
 .dark-button {
     background: black;
     border-radius: 1.5em;
     color: white;
     padding: 0.6em 1.75em;
+}
+
+.dark-button:hover {
+    cursor: pointer;
+    background: #666CA3;
 }
 
 .footer-button {
