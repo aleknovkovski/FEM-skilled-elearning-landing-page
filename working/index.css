@@ -86,6 +86,11 @@ button {
     padding: 0.75em 1.25em;
 }
 
+.footer-button:hover {
+    cursor: pointer;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
 .call-to-action {
     font-weight: 700;
     font-size: 18px;
