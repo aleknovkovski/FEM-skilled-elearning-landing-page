@@ -24,11 +24,24 @@ body {
     margin: 0 auto;
 }
 
-.front-page-header {
+.front-page-header main {
     height: 600px;
+    display: flex;
+    align-items: center;
 }
 
+.heading-copy {
+    width: 457px;
+    height: 359px;
+}
 
+h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
 
 .dark-button {
     background: black;
