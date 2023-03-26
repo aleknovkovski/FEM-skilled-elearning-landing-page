@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/responsive-landing-page-with-a-tricky-offset-hero-image-s3yod2lOom)
-- Live Site URL: [Hosted on GitHub Page](https://aleknovkovski.github.io/FEM-skilled-elearning-landing-page/working)
+- Live Site URL: [Hosted on GitHub Pages](https://aleknovkovski.github.io/FEM-skilled-elearning-landing-page/working)
 
 ## My process
 
